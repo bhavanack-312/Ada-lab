@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include <time.h>
 int a[20][20],visited[20],n,stack[20],top=-1;
 void dfs_helper(int v)
@@ -52,6 +51,5 @@ end = clock();
 printf("\n");
 cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
 printf("TIME FOR FUNCTION EXECUTION is %f\n", cpu_time_used);
-getch();
 }
-}
+
